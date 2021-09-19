@@ -297,6 +297,7 @@ color:hsl(0, 94%, 66%);
       }
       .tab-text{
           margin-top:15%;
+          padding:0!important;
       }
       .bg-shape {
         position: absolute;

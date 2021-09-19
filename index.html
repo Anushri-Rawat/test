@@ -57,7 +57,7 @@
       <div class="wrapper" style="text-align:left;">
         <div class="text">
           <h1>A Simple Bookmark Manager</h1>
-      <p class="px-3">A clean and simple interface to organize your favourite websites. Open a new 
+      <p class="pe-3">A clean and simple interface to organize your favourite websites. Open a new 
       browser tab and see your sites load instantly. Try it for free.</p>
       <div class="row g-2">
         <div class="col-6 col-md-4">
@@ -68,25 +68,125 @@
         </div>
       </div></div>
       <img src="./images/illustration-hero.svg" alt="">
-    
+     <!--<div class="intro-bg">
+      <div class="intro-img">
+        <img class="bg" src="/images/illustration-hero.svg" alt="" />
+      </div>
+    </div>--------->
       </div>
     </div>
     <div class="bg-curve"></div>
   </section>
   <!------------features------------------>
-  <section class="section-2" style="margin-top:10%;">
+  <section class="section-2" style="margin-top:5%;">
     <div class="container">
       <div class="wrapper">
-        <div class="card border-0"><h2>Features</h2>
-          <dic class="card-body px-4 py-0">
+        <div class="cardone border-0"><h2 class="mb-3">Features</h2>
+          <div class="card-body px-4 py-0">
             <p>Our aim is to make it quick and easy for you to access your favourite websites. 
               Your bookmarks sync between your devices so you can access them on the go.</p>
-          </dic></div>
+          </div></div>
         
       </div>
     </div>
   </section>
-     
+  <!--------------slider menu----------->
+  <section class="section-3">
+    <div class="container">
+     <div class="wrapper">
+        <div class="features-buttons">
+          <div class="features-button">
+            <button class="features-btn-simple features-btn" id="bookmark">
+              Simple Bookmarking
+            </button>
+            <div class="button-underline show-underline"></div>
+          </div>
+          <div class="features-button">
+            <button class="features-btn-speedy features-btn" id="intelligent">Speedy Searching
+            </button>
+            <div class="button-underline"></div>
+          </div>
+          <div class="features-button">
+            <button class="features-btn-easy features-btn" id="share">
+              Easy Sharing
+            </button>
+            <div class="button-underline"></div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper tab active" id="bookmark">
+        <img src="./images/illustration-features-tab-1.svg" alt="app preview">
+        <div class="tab-text">
+          <h2>Bookmark in one click</h2>
+          <p>Organize your bookmarks however you like. Our simple drag-and-drop interface 
+          gives you complete control over how you manage your favourite sites.</p>
+          <button class="btn blue" style="width:100px">More Info</button>
+        </div>
+      </div>
+  
+      <div class="wrapper tab" id="intelligent">
+        <img src="./images/illustration-features-tab-2.svg" alt="search in app">
+        <div class="tab-text">
+          <h2>Intelligent search</h2>
+          <p>Our powerful search feature will help you find saved sites in no time at all. 
+            No need to trawl through all of your bookmarks.</p>
+            <button class="btn blue" style="width:100px">More Info</button>
+        </div>
+      </div>
+  
+      <div class="wrapper tab" id="share">
+        <img src="./images/illustration-features-tab-3.svg" alt="people sharing">
+        <div class="tab-text">
+          <h2>Share your bookmarks</h2>
+          <p>Easily share your bookmarks and collections with others. Create a shareable 
+            link that you can send at the click of a button.</p>
+            <button class="btn blue" style="width:100px">More Info</button>
+        </div>
+      </div>  
+
+      </div>
+    </div>
+  </section>
+
+
+  <!----------cards-------->
+  <section class="section-4" style="margin-top:15%;">
+    <div class="container">
+      <div class="wrapper">
+        <div class="article">
+          <h2>Download the extension</h2>
+      <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+      got a favourite you’d like us to prioritize.</p>
+      </div>
+        </div>
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="card-body p-0">
+            <img src="./images/logo-chrome.svg" alt="chrome logo">
+          <h3>Add to Chrome</h3>
+          <p>Minimum version 62</p>
+          </div>
+          <div class="footer"><button class="btn blue">Add & Install Extension</button></div>
+        </div>
+        <div class="card two">
+          <div class="card-body p-0"><img src="./images/logo-firefox.svg" alt="firefox logo">
+            <h3>Add to Firefox</h3>
+            <p>Minimum version 55</p></div>
+          <div class="footer"><button class="btn blue">Add & Install Extension</button></div>
+          
+        </div>
+        <div class="card three">
+          <div class="card-body p-0"><img src="./images/logo-opera.svg" alt="opera logo">
+            <h3>Add to Opera</h3>
+            <p>Minimum version 46</p></div>
+          <div class="footer"><button class="btn blue">Add & Install Extension</button></div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
